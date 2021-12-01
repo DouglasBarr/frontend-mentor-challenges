@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow:wght@500;900&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+    :root {
+        --title: #162542;
+        --text: #7b8bad;
+        --highlight: #f16718;
+        --white: #ffffff;
+        
+        --cta-button-background: #f16718;
+        --cta-button-background-hover: #ff9b62;
+        --cta-button-text: #ffffff;
+
+        --button-background: #e8eff2;
+        --button-background-hover: #162542;
+        --button-text: #162542;
+        --button-text-hover: #ffffff;
+    }
+}
+
+body {
+    @apply mx-32 mt-5;
+}
+
+h1 {
+    @apply uppercase text-4xl;
+    color: var(--title);
+}
+
+h2 {
+    @apply uppercase text-2xl;
+    color: var(--title);
+}
+
+h3 {
+    @apply uppercase text-xl;
+    color: var(--title);
+}
+
+p {
+    color: var(--text);
+}
+
+.grid-base {
+    @apply grid grid-cols-12 gap-16
+}
+
+.highlight {
+    background-color: var(--highlight);
+}
+
+.button {
+    @apply rounded-lg;
+    background-color: var(--button-background);
+    color: var(--button-text);
+}
+
+.button:hover {
+    @apply rounded-lg;
+    background-color: var(--button-background-hover);
+    color: var(--button-text-hover);
+}
+
+.call-to-action-button {
+    @apply rounded-lg;
+    background-color: var(--cta-button-background);
+    color: var(--cta-button-text);
+}
+
+.call-to-action-button:hover {
+    @apply rounded-lg;
+    background-color: var(--cta-button-background-hover);
+    color: var(--cta-button-text-hover);
+}

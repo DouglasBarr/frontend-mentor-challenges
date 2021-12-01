@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<JUCERPROJECT id="jru4RF" name="Typemaster App" projectType="guiapp" useAppConfig="0"
+              addUsingNamespaceToJuceHeader="1" displaySplashScreen="1" jucerFormatVersion="1">
+  <MAINGROUP id="o2KQQ4" name="Typemaster App">
+    <GROUP id="{E836DD1E-294B-9AFC-CE11-BE9F761810D7}" name="Source">
+      <GROUP id="{BAFD49AA-36D3-6E1B-E3A1-1E667C112BE7}" name="utilities">
+        <FILE id="A4qk7A" name="AppDefinitions.cpp" compile="1" resource="0"
+              file="Source/AppDefinitions.cpp"/>
+        <FILE id="Mr9nNp" name="AppDefinitions.h" compile="0" resource="0"
+              file="Source/AppDefinitions.h"/>
+        <FILE id="yD5zor" name="AppLookAndFeel.cpp" compile="1" resource="0"
+              file="Source/AppLookAndFeel.cpp"/>
+        <FILE id="Agf1dX" name="AppLookAndFeel.h" compile="0" resource="0"
+              file="Source/AppLookAndFeel.h"/>
+      </GROUP>
+      <GROUP id="{019ED816-B24B-9689-98C7-6A9FA577AECB}" name="landing-page">
+        <FILE id="zER0zc" name="CallToAction.cpp" compile="1" resource="0"
+              file="Source/CallToAction.cpp"/>
+        <FILE id="OKLtlL" name="CallToAction.h" compile="0" resource="0" file="Source/CallToAction.h"/>
+        <FILE id="FmtSBY" name="FeatureImages.cpp" compile="1" resource="0"
+              file="Source/FeatureImages.cpp"/>
+        <FILE id="yv6Xg7" name="FeatureImages.h" compile="0" resource="0" file="Source/FeatureImages.h"/>
+        <FILE id="fp4QxX" name="Features.cpp" compile="1" resource="0" file="Source/Features.cpp"/>
+        <FILE id="TFeQAb" name="Features.h" compile="0" resource="0" file="Source/Features.h"/>
+        <FILE id="tvDmTS" name="Footer.cpp" compile="1" resource="0" file="Source/Footer.cpp"/>
+        <FILE id="Q5GDWo" name="Footer.h" compile="0" resource="0" file="Source/Footer.h"/>
+        <FILE id="D7v25N" name="Header.cpp" compile="1" resource="0" file="Source/Header.cpp"/>
+        <FILE id="dxvfqM" name="Header.h" compile="0" resource="0" file="Source/Header.h"/>
+        <FILE id="M7nXNn" name="HeroImage.cpp" compile="1" resource="0" file="Source/HeroImage.cpp"/>
+        <FILE id="XpDxhO" name="HeroImage.h" compile="0" resource="0" file="Source/HeroImage.h"/>
+        <FILE id="g3vyd4" name="LandingPage.cpp" compile="1" resource="0" file="Source/LandingPage.cpp"/>
+        <FILE id="V8xrTT" name="LandingPage.h" compile="0" resource="0" file="Source/LandingPage.h"/>
+      </GROUP>
+      <FILE id="eU1Nin" name="Main.cpp" compile="1" resource="0" file="Source/Main.cpp"/>
+      <FILE id="IGKUEI" name="MainComponent.h" compile="0" resource="0" file="Source/MainComponent.h"/>
+      <FILE id="MJ57vd" name="MainComponent.cpp" compile="1" resource="0"
+            file="Source/MainComponent.cpp"/>
+    </GROUP>
+    <GROUP id="{EC03A4D8-030D-C242-8A01-8441377EAEBA}" name="Resources">
+      <FILE id="lrgzXJ" name="icon-battery.svg" compile="0" resource="1"
+            file="../../typemaster-pre-launch-landing-page/starter-code/assets/shared/icon-battery.svg"/>
+      <FILE id="DKvojO" name="icon-bluetooth.svg" compile="0" resource="1"
+            file="../../typemaster-pre-launch-landing-page/starter-code/assets/shared/icon-bluetooth.svg"/>
+      <FILE id="Uee5Nj" name="icon-compatible.svg" compile="0" resource="1"
+            file="../../typemaster-pre-launch-landing-page/starter-code/assets/shared/icon-compatible.svg"/>
+      <FILE id="IBpmyO" name="icon-light.svg" compile="0" resource="1" file="../../typemaster-pre-launch-landing-page/starter-code/assets/shared/icon-light.svg"/>
+      <FILE id="zJkcGw" name="logo.svg" compile="0" resource="1" file="../../typemaster-pre-launch-landing-page/starter-code/assets/shared/logo.svg"/>
+      <FILE id="jjrV84" name="pattern-square.svg" compile="0" resource="1"
+            file="../../typemaster-pre-launch-landing-page/starter-code/assets/shared/pattern-square.svg"/>
+      <FILE id="D4xmrd" name="Barlow-Black.otf" compile="0" resource="1"
+            file="Resources/Barlow-Black.otf"/>
+      <FILE id="fos3xL" name="Barlow-Medium.otf" compile="0" resource="1"
+            file="Resources/Barlow-Medium.otf"/>
+    </GROUP>
+  </MAINGROUP>
+  <JUCEOPTIONS JUCE_STRICT_REFCOUNTEDPOINTER="1"/>
+  <EXPORTFORMATS>
+    <XCODE_IPHONE targetFolder="Builds/iOS">
+      <CONFIGURATIONS>
+        <CONFIGURATION isDebug="1" name="Debug" targetName="Typemaster App"/>
+        <CONFIGURATION isDebug="0" name="Release" targetName="Typemaster App"/>
+      </CONFIGURATIONS>
+      <MODULEPATHS>
+        <MODULEPATH id="juce_core" path="../../../../../libs-and-sdks/JUCE/modules"/>
+        <MODULEPATH id="juce_data_structures" path="../../../../../libs-and-sdks/JUCE/modules"/>
+        <MODULEPATH id="juce_events" path="../../../../../libs-and-sdks/JUCE/modules"/>
+        <MODULEPATH id="juce_graphics" path="../../../../../libs-and-sdks/JUCE/modules"/>
+        <MODULEPATH id="juce_gui_basics" path="../../../../../libs-and-sdks/JUCE/modules"/>
+      </MODULEPATHS>
+    </XCODE_IPHONE>
+  </EXPORTFORMATS>
+  <MODULES>
+    <MODULE id="juce_core" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_data_structures" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_events" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_graphics" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_gui_basics" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+  </MODULES>
+</JUCERPROJECT>
